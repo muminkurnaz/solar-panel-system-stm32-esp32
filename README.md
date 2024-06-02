@@ -20,4 +20,28 @@ In this system, two LDR sensors on the solar panel measure light levels. The ser
 
 <img src="https://github.com/dilarabukerr/solar-panel-project/blob/main/server.png" alt="server">
 
+## Files
 
+- `stm32_solar_panel_code.ino`: STM32 code for controlling the solar panel.
+- `esp_code.ino`: Code for the web interface on ESP32.
+
+  
+## Usage
+
+To run the project:
+1. First, upload and run the `stm32_solar_panel_code.ino` file to your STM32 board to control the solar panel.
+2. Then, upload and run the `esp_code.ino` file to your ESP32 board to set up the web interface.
+3. While on the same network, enter the assigned IP address into a web browser to access the web interface and monitor the system.
+
+
+## Contributing
+
+If you would like to contribute, please submit a pull request. All contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License. For more information, see the `LICENSE` file.
+
+## Contact
+
+For questions regarding the project, you can contact me at: [mmnkrnz@gmail.com](mailto:mmnkrnz@gmail.com)
